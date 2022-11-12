@@ -1,10 +1,60 @@
 
+
+
+
+
+
+
 /*Imported Icons and Fonts */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 
+:root {
+    /* Grid */
+
+    --grid-width: calc(100% / 12);
+    --col-1: calc(var(--grid-width) * 1);
+    --col-2: calc(var(--grid-width) * 2);
+    --col-3: calc(var(--grid-width) * 3);
+    --col-4: calc(var(--grid-width) * 4);
+    --col-5: calc(var(--grid-width) * 5);
+    --col-6: calc(var(--grid-width) * 6);
+    --col-7: calc(var(--grid-width) * 7);
+    --col-8: calc(var(--grid-width) * 8);
+    --col-9: calc(var(--grid-width) * 9);
+    --col-10: calc(var(--grid-width) * 10);
+    --col-11: calc(var(--grid-width) * 11);
+    --col-12: calc(var(--grid-width) * 12);
+
+    /* Branding */
+    --primary: 	hsl(333, 82%, 67%);
+    --primary-hover: hsl(333, 82%, 37%);
+    --secondary: hsl(122, 82%, 67%);
+    --secondary-hover: hsl(122, 82%, 87%);
+    --secondary-blurred: hsla(122, 82%, 87%, 50%);
+    --tertiary: hsl(333, 100%, 76%);
+    --tertiary-hover: hsl(333, 100%, 96%);
+    --font-color: #1d1d1d;
+
+    --gray-0: #222222;
+    --gray-1: #666666;
+    --gray-2: #999999;
+    --gray-3: #dadada;
+
+    --white: white;
+
+    /* Typography */
+    --base-font-size: 20px;
+    --base-scale: 1.25;
+    --base-line-height: calc(1em * var(--base-scale));
+    --h4-font-size: 1rem;
+    --h3-font-size: calc(1rem * var(--base-scale));
+    --h2-font-size: calc(1rem * var(--base-scale) * var(--base-scale));
+    --h1-font-size: calc(1rem * var(--base-scale) * var(--base-scale) * var(--base-scale));
+}
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 /* Navigation Styles */
 .navbar {
