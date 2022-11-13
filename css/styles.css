@@ -26,13 +26,12 @@
     --col-12: calc(var(--grid-width) * 12);
 
     /* Branding */
-    --primary: 	hsl(333, 82%, 67%);
-    --primary-hover: hsl(333, 82%, 37%);
-    --secondary: hsl(122, 82%, 67%);
-    --secondary-hover: hsl(122, 82%, 87%);
-    --secondary-blurred: hsla(122, 82%, 87%, 50%);
-    --tertiary: hsl(333, 100%, 76%);
-    --tertiary-hover: hsl(333, 100%, 96%);
+    --primary: 	hsl(211, 56%, 43%);
+    --primary-hover: hsl(211, 56%, 23%);
+    --secondary: hsl(231, 53%, 17%);
+    --secondary-hover: hsl(231, 53%, 47%);
+    --tertiary: hsl(218, 76%, 68%);
+    --tertiary-hover: hsl(218, 76%, 88%);
     --font-color: #1d1d1d;
 
     --gray-0: #222222;
