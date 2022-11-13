@@ -54,7 +54,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    width: 80%;
+    width: 95%;
 }
 
 
@@ -193,7 +193,22 @@
 }
 /* End of Navigation Styles */
 
-/* TASK: Paste your grid system here */
+/*Article Styles */
+.intro > img, .single-article > img, .hire-me > img {
+    align-self: center;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+}
+/*End of Article Styles */
+
+
+/* Grid System */
 .container-fluid, 
 .container {
 
@@ -315,38 +330,38 @@
 }
 
 .col-xs-7 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-7);
+    max-width: var(--col-7);
     background-color: var(--blue-6);
 }
 
 .col-xs-8 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-8);
+    max-width: var(--col-8);
     background-color: var(--blue-6);
 }
 
 .col-xs-9 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-9);
+    max-width: var(--col-9);
     background-color: var(--blue-6);
 }
 
 .col-xs-10 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-10);
+    max-width: var(--col-10);
     background-color: var(--blue-6);
 }
 
 .col-xs-11 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-11);
+    max-width: var(--col-11);
     background-color: var(--blue-6);
 }
 
 .col-xs-12 {
-    flex: 0 0 var(--col-6);
-    max-width: var(--col-6);
+    flex: 0 0 var(--col-12);
+    max-width: var(--col-12);
     background-color: var(--blue-6);
 }
 /* Styles for 'col-sm-...' grid */
@@ -390,38 +405,38 @@
     }
 
     .col-sm-7 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-7);
+        max-width: var(--col-7);
         background-color: var(--blue-6);
     }
 
     .col-sm-8 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-8);
+        max-width: var(--col-8);
         background-color: var(--blue-6);
     }
 
     .col-sm-9 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-9);
+        max-width: var(--col-9);
         background-color: var(--blue-6);
     }
 
     .col-sm-10 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-10);
+        max-width: var(--col-10);
         background-color: var(--blue-6);
     }
 
     .col-sm-11 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-11);
+        max-width: var(--col-11);
         background-color: var(--blue-6);
     }
 
     .col-sm-12 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-12);
+        max-width: var(--col-12);
         background-color: var(--blue-6);
     }
 }
@@ -465,38 +480,38 @@
     }
 
     .col-md-7 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-7);
+        max-width: var(--col-7);
         background-color: var(--blue-6);
     }
 
     .col-md-8 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-8);
+        max-width: var(--col-8);
         background-color: var(--blue-6);
     }
 
     .col-md-9 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-9);
+        max-width: var(--col-9);
         background-color: var(--blue-6);
     }
 
     .col-md-10 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-10);
+        max-width: var(--col-10);
         background-color: var(--blue-6);
     }
 
     .col-md-11 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-11);
+        max-width: var(--col-11);
         background-color: var(--blue-6);
     }
 
     .col-md-12 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-12);
+        max-width: var(--col-12);
         background-color: var(--blue-6);
     }
 }
@@ -540,38 +555,38 @@
     }
 
     .col-lg-7 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-7);
+        max-width: var(--col-7);
         background-color: var(--blue-6);
     }
 
     .col-lg-8 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-8);
+        max-width: var(--col-8);
         background-color: var(--blue-6);
     }
 
     .col-lg-9 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-9);
+        max-width: var(--col-9);
         background-color: var(--blue-6);
     }
 
     .col-lg-10 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-10);
+        max-width: var(--col-10);
         background-color: var(--blue-6);
     }
 
     .col-lg-11 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-11);
+        max-width: var(--col-11);
         background-color: var(--blue-6);
     }
 
     .col-lg-12 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-12);
+        max-width: var(--col-12);
         background-color: var(--blue-6);
     }
 }
@@ -615,38 +630,38 @@
     }
 
     .col-xl-7 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-7);
+        max-width: var(--col-7);
         background-color: var(--blue-6);
     }
 
     .col-xl-8 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-8);
+        max-width: var(--col-8);
         background-color: var(--blue-6);
     }
 
     .col-xl-9 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-9);
+        max-width: var(--col-9);
         background-color: var(--blue-6);
     }
 
     .col-xl-10 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-10);
+        max-width: var(--col-10);
         background-color: var(--blue-6);
     }
 
     .col-xl-11 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-11);
+        max-width: var(--col-11);
         background-color: var(--blue-6);
     }
 
     .col-xl-12 {
-        flex: 0 0 var(--col-6);
-        max-width: var(--col-6);
+        flex: 0 0 var(--col-12);
+        max-width: var(--col-12);
         background-color: var(--blue-6);
     }
 
