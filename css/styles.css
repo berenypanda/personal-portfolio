@@ -64,14 +64,6 @@ body {
     width: 80%;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li > a {
-    text-decoration: none;
-}
 /* Navigation Styles */
 .navbar {
     display: flex;
