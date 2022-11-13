@@ -192,12 +192,23 @@ body {
 /* End of Navigation Styles */
 
 /* Button Styles */
+
 .btn-primary {
     background-color: var(--primary);
     color: var(--white);
     border: none;
     padding: 0;
 }
+
+.btn-secondary {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.3px;
+}
+
+@media screen and (min-width: 576px) {
 
 .btn-secondary {
     background-color: var(--gray);
@@ -223,7 +234,7 @@ body {
         color: var(--primary-hover);
         cursor: pointer;
     }
-
+}
 /* End of Button Styles */
 
 /* Heading Styles */
@@ -234,6 +245,16 @@ h1, h2, h3, h4, h5 {
 
 /* Link Styles */
 
+a {
+    color: var(--primary);
+}
+a:hover {
+    border-bottom: 1px solid var(--primary);
+}
+
+ul.inline.social-media > li > a:hover {
+    border: none; /*Removes hover border on social media icons*/
+}
 /* End of Link Styles */
 
 /* Article Styles */
