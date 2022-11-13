@@ -51,10 +51,11 @@
     --h2-font-size: calc(1rem * var(--base-scale) * var(--base-scale));
     --h1-font-size: calc(1rem * var(--base-scale) * var(--base-scale) * var(--base-scale));
 }
-* {
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    width: 95%;
+    width: 80%;
 }
 
 
@@ -196,6 +197,7 @@
 /*Article Styles */
 .intro > img, .single-article > img, .hire-me > img {
     align-self: center;
+    padding: 0;
 }
 
 .intro {
@@ -204,8 +206,90 @@
     justify-content: flex-start;
     align-items: stretch;
     align-content: center;
+    margin-top: 35px;
 }
+
+.article-section {
+    margin-top: 35px;
+}
+
+.single-article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 25px;
+}
+
+.hire-me {
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 25px;
+}
+
 /*End of Article Styles */
+
+/* Footer Styles */
+.bottom-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.bottom-nav > ul > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-nav > ul > li > a {
+    text-decoration: none;
+}
+
+.container.company-details {
+    padding: 0;
+}
+
+ul.unstyled.footer-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+ul.unstyled.footer-nav > li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ul.unstyled.footer-nav > li > a {
+    text-decoration: none;
+}
+
+.col-md-12.col-lg-6 > form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.copyright > .container {
+    padding: 0;
+}
+
+ul.inline.social-media {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+/* End of Footer Styles */ 
 
 
 /* Grid System */
