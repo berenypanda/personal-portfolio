@@ -209,6 +209,9 @@ li > a {
 
 /* Button Styles */
 
+button > a {
+    text-decoration: none;
+}
 .btn-primary {
     background-color: var(--primary);
     color: var(--white);
