@@ -72,6 +72,13 @@ ul {
 li > a {
     text-decoration: none;
 }
+/*Image Styles*/
+img {
+    object-fit:scale-down;
+    max-height: 150px;
+}
+
+/*End of Image Styles */
 /* Navigation Styles */
 .navbar {
     display: flex;
@@ -303,7 +310,7 @@ ul.inline.social-media > li > a:hover {
 
 .intro {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: flex-start;
     align-items: stretch;
     align-content: center;
@@ -316,21 +323,21 @@ ul.inline.social-media > li > a:hover {
 
 .single-article {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-items: flex-start;
     justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
+    align-items: flex-start;
+    align-content: flex-start;
     margin-top: 25px;
 }
 
 .hire-me {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-items: flex-start;
     justify-content: flex-start;
-    align-items: stretch;
-    align-content: stretch;
+    align-items: flex-start;
+    align-content: flex-start;
     margin-top: 25px;
 }
 
@@ -434,7 +441,7 @@ input:invalid, input:focus:invalid {
     width: 100vw;
     max-width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     background-color: var(--primary);
     color:var(--white);
 }
@@ -485,10 +492,15 @@ ul.unstyled.footer-nav > li > a {
 
 .col-md-12.col-lg-6 > form {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
     height: 20vh;
 }
+
+.form-group.row .col-sm-12 {
+    padding:0px;
+} 
 
 .copyright > .container {
     padding: 0;
