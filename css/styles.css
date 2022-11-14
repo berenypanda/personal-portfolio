@@ -342,7 +342,13 @@ ul.inline.social-media > li > a:hover {
 }
 
 /*End of Article Styles */
-
+/* Rating Styles */
+    .rating > i {
+        color:var(--primary);
+        font-size: var(--h3-font-size);
+        
+    }
+/* End of Rating Styles */ 
 /* Form Styles */
 /* Forms */
 .contact-form {
@@ -446,7 +452,7 @@ input:invalid, input:focus:invalid {
     color:var(--white);
 }
 
-.bottom-page-2 h3, .bottom-page-2 h4, .bottom-page-2 a, .bottom-page-2 i {
+.bottom-page-2 h3, .bottom-page-2 h4, .bottom-page-2 p .bottom-page-2 a, .bottom-page-2 i {
     color: var(--white);
 }
 
@@ -468,7 +474,12 @@ input:invalid, input:focus:invalid {
 
 .bottom-nav > ul > li > a {
     text-decoration: none;
+    margin-top: 5px;
+    background-color: var(--gray);
     color: var(--white);
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    border: 2px solid var(--white);
 }
 
 .container.company-details {
@@ -488,6 +499,12 @@ ul.unstyled.footer-nav > li {
  }
 ul.unstyled.footer-nav > li > a {
     text-decoration: none;
+    margin-top: 5px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    border: 2px solid var(--white);
 }
 
 .col-md-12.col-lg-6 > form {
