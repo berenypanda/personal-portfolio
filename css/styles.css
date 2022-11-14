@@ -328,10 +328,98 @@ ul.inline.social-media > li > a:hover {
 
 /*End of Article Styles */
 
+/* Form Styles */
+/* Forms */
+.contact-form {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+fieldset {
+	padding: 0px;
+	border: 0px;
+	margin: 0;
+    width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: stretch;
+}
+fieldset legend {
+	color: var(--primary);
+}
+.form-group.row {
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+}
+fieldset .form-group:last-of-type {
+	margin-bottom: 0;
+}
+.form-group label {
+	font-weight: 400;
+    padding: 0;
+    color: var(--primary)
+}
+
+.col-sm-8.col-form-input {
+    padding: 0px;
+    margin: 0 auto;
+    width: 80vw;
+    box-sizing:border-box;
+}
+
+.form-control, .form-check-input {
+	accent-color: var(--secondary);
+}
+
+
+
+input, select, textarea {
+	font-family: inherit;
+	font-size: 1rem;
+	line-height: var(--base-line-height);
+	padding: calc((1em / var(--base-scale)) / var(--base-scale) / var(--base-scale)) calc(1em / var(--base-scale) / var(--base-scale));
+	border: 1px solid var(--gray-0);
+	color: var(--font-color);
+	background-color: var(--white);
+}
+input.form-control {
+	width: 100%;
+	max-width: 100%;
+}
+
+textarea {
+	width: 100%;
+	max-width: 100%;
+	min-height: calc(4 * var(--base-line-height));
+}
+#submit {
+	align-self: flex-start;
+}
+/* Pseudo Selectors */
+
+.form-control:focus {
+	outline: var(--primary) solid 3px;
+	outline-offset: 2px;
+}
+.form-check-input:checked {
+	box-shadow: 0 0 4px 4px var(--secondary-blurred);
+}
+.form-control:disabled, .form-control:hover:disabled, input:disabled, input:hover:disabled {
+	background-color: var(--gray-3);
+	color: var(--gray-2);
+	cursor: not-allowed;
+}
+input:invalid, input:focus:invalid {
+	border-color: red;
+	box-shadow: 0 0 2px red;
+	outline: red solid 2px;
+	outline-offset: 2px;
+}
+/* End of Forms*/
+/* End of Form Styles */
+
 /* Footer Styles */
-
-
-
 .bottom-page-1 {
     width: 100vw;
     max-width: 100%;
@@ -344,7 +432,7 @@ ul.inline.social-media > li > a:hover {
     width: 100vw;
     max-width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     background-color: var(--primary);
     color:var(--white);
 }
