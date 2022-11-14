@@ -195,10 +195,10 @@ li > a {
     .navigation.collapse .navbar-nav,
     .navbar-nav {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        align-items: baseline;
-        align-content: center;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        align-content: flex-end;
     }
 
     .dropdown-menu {
@@ -277,13 +277,18 @@ h1, h2, h3, h4, h5 {
 
 a {
     color: var(--primary);
-}
-a:hover {
-    border-bottom: 1px solid var(--primary);
+    padding:5px;
 }
 
 ul.inline.social-media > li > a:hover {
     border: none; /*Removes hover border on social media icons*/
+}
+
+.bottom-page-1 a:hover, .bottom-page-2 a:hover {
+    background-color: var(--white);
+    color: var(--primary);
+
+
 }
 /* End of Link Styles */
 
@@ -361,12 +366,6 @@ fieldset .form-group:last-of-type {
     color: var(--primary)
 }
 
-.col-sm-8.col-form-input {
-    padding: 0px;
-    margin: 0 auto;
-    width: 80vw;
-    box-sizing:border-box;
-}
 
 .form-control, .form-check-input {
 	accent-color: var(--secondary);
@@ -437,7 +436,7 @@ input:invalid, input:focus:invalid {
     color:var(--white);
 }
 
-.bottom-page-2 h3, .bottom-page-2 i {
+.bottom-page-2 h3, .bottom-page-2 h4, .bottom-page-2 a, .bottom-page-2 i {
     color: var(--white);
 }
 
