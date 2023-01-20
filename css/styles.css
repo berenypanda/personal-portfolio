@@ -175,7 +175,8 @@ img {
 }
 
 .dropdown-menu > a:hover {
-    background-color: var(--gray-1);
+   color: var(--primary);
+   font-weight: bold;
 }
 
 .sr-only {
@@ -191,6 +192,11 @@ img {
 }
 
 @media screen and (min-width: 768px){
+
+    .navbar {
+        display:flex;
+        flex-flow: row wrap;
+    }
     .navbar-toggler {
         display: none;
     }
@@ -227,18 +233,18 @@ button > a {
 }
 
 .btn-secondary {
-    background-color: var(--primary);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--primary);
     border: none;
     padding: 10px;
     letter-spacing: 0.3px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
 
 .btn-secondary {
-    background-color: var(--gray);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
     font-weight: bold;
     letter-spacing: 0.3px;
     border: 2px solid var(--primary);
@@ -261,8 +267,8 @@ button > a {
 
     /* Button Hover Styles */
     .btn-secondary:hover {
-        background-color: var(--primary);
-        color: var(--white);
+        background-color: var(--white);
+        color: var(--primary);
         cursor: pointer;
     }
     .bottom-page-2 .btn-secondary:hover {
@@ -341,12 +347,44 @@ ul.inline.social-media > li > a:hover {
     margin-top: 25px;
 }
 
+@media screen and (min-width:768px){
+    .md-articles{
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .two-col-layout {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+@media screen and (min-width:992px){
+    .intro {
+        display:flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .intro > img {
+        max-width: var(--col-lg-5)
+    }
+}
+}
+
 /*End of Article Styles */
+/*Resume Styles */
+    .job-desc {
+        list-style-type:square;
+        margin-left: 5vw;
+
+    }
+/*End of Resume Styles */
 /* Rating Styles */
     .rating > i {
         color:var(--primary);
         font-size: var(--h3-font-size);
-        
+
     }
 /* End of Rating Styles */ 
 /* Form Styles */
@@ -379,7 +417,7 @@ fieldset .form-group:last-of-type {
 .form-group label {
 	font-weight: 400;
     padding: 0;
-    color: var(--primary)
+    color: var(--white);
 }
 
 
@@ -511,7 +549,7 @@ ul.unstyled.footer-nav > li > a {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     height: 20vh;
 }
 
@@ -546,6 +584,7 @@ ul.inline.social-media {
     width: 100vw;
     max-width: 100vw;
 }
+
 /* End of Footer Styles */ 
 
 
