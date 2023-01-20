@@ -86,8 +86,13 @@ img {
     justify-content: space-between;
     align-items: center;
     align-content: flex-start;
+    background-color: var(--primary);
+    width: 100%;
+    margin: 0;
+    position:sticky;
+    top: 0;
+    font-weight: bold;
 }
-
 .navbar-brand {
     display: block;
     overflow: hidden;
@@ -125,7 +130,7 @@ img {
 }
 
 .navbar-nav li > a {
-    color: var(--primary);
+    color: var(--white);
     display: block;
     overflow: hidden;
     padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
@@ -134,13 +139,15 @@ img {
 }
 
 .navbar-nav li.active > a {
-    border-bottom-color: var(--primary);
+    color: var(--tertiary-hover);
+    border-bottom-color: var(--tertiary-hover);
 }
 
 .navbar-nav li > a:hover {
-    background-color: var(--primary);
-    color: var(--white);
+    color: var(--tertiary-hover);
+    border-bottom: 2px solid var(--tertiary-hover);
 }
+
 
 .dropdown-toggle::after {
     content: "\f0d8";
@@ -158,7 +165,7 @@ img {
 }
 
 .dropdown-menu {
-    background-color: var(--gray-2);
+    background-color: var(--tertiary-hover);
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -169,13 +176,13 @@ img {
 
 .dropdown-menu > a {
     flex: 1 0 100%;
-    color: var(--white);
+    color: var(--primary);
     padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
     text-decoration: none;
 }
 
 .dropdown-menu > a:hover {
-   color: var(--primary);
+   color: var(--primary-hover);
    font-weight: bold;
 }
 
