@@ -503,8 +503,14 @@ input:invalid, input:focus:invalid {
     color: var(--white);
 }
 
-.bottom-nav, footer {
+footer {
     margin: 0 auto;
+}
+
+.bottom-nav { 
+    margin: 0 auto;
+    width: 80%;
+
 }
 .bottom-nav > ul {
     list-style-type: none;
