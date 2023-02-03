@@ -493,6 +493,11 @@ input:invalid, input:focus:invalid {
     background-color: var(--gray-2);
 }
 
+.bottom-page-1 .bottom-nav {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .bottom-page-2 {
     width: 100vw;
     max-width: 100%;
