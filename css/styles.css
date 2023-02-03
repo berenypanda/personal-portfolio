@@ -512,6 +512,10 @@ footer {
     width: 80%;
 
 }
+
+.bottom-nav > p { 
+    padding: 0;
+}
 .bottom-nav > ul {
     list-style-type: none;
     padding: 0;
@@ -541,6 +545,7 @@ footer {
 ul.unstyled.footer-nav {
     list-style-type: none;
     padding: 0;
+    margin-bottom: 20%;
     display: flex;
     flex-flow: column wrap;
 }
@@ -571,19 +576,15 @@ ul.unstyled.footer-nav > li > a {
     padding:0px;
 } 
 /* format footer form*/
-form  #submit {
-    margin-top: 20%;
-}
 
 form .col-xs-12 {
     padding: 0;
 }
 
-form #subscribe {
-    padding: 20%;
 
+#subscribe {
+    padding: 2%;
 }
-
 .copyright {
     margin-top: 20%;
 }
