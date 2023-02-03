@@ -619,12 +619,13 @@ ul.inline.social-media {
     justify-content: space-around;
     padding: 0;
 }
-/*footer for tablets*/ 
+/*footer for tablets and desktop*/ 
 @media screen and (min-width: 768px) {
     .company-details > .row {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        align-items: baseline;
 
     }
     .copyright .row {
