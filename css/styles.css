@@ -445,10 +445,7 @@ input, select, textarea {
 	color: var(--font-color);
 	background-color: var(--white);
 }
-input.form-control {
-	width: 100%;
-	max-width: 100%;
-}
+
 
 textarea {
 	width: 100%;
@@ -922,12 +919,14 @@ ul.inline.social-media {
 
     .col-md-11 {
         flex: 0 0 var(--col-11);
+        min-width: var(--col-11);
         max-width: var(--col-11);
         
     }
 
     .col-md-12 {
         flex: 0 0 var(--col-12);
+        min-width: var(--col-12);
         max-width: var(--col-12);
         
     }
