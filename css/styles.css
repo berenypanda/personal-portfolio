@@ -860,59 +860,69 @@ ul.inline.social-media {
 @media screen and (min-width: 768px){
     .col-md-1 {
         flex: 0 0 var(--col-1);
+        min-width: var(--col-1);
         max-width: var(--col-1);
        
     }
     
     .col-md-2 {
         flex: 0 0 var(--col-2);
+        min-width: var(--col-2);
         max-width: var(--col-2);
        
     }
     
     .col-md-3 {
         flex: 0 0 var(--col-3);
+        min-width: var(--col-3);
         max-width: var(--col-3);
         
     }
     
     .col-md-4 {
         flex: 0 0 var(--col-4);
+        min-width: var(--col-4);
         max-width: var(--col-4);
         
     }
     
     .col-md-5{
         flex: 0 0 var(--col-5);
+        min-width: var(--col-5);
         max-width: var(--col-5);
        
     }
     
     .col-md-6 {
         flex: 0 0 var(--col-6);
+        min-width: var(--col-6);
         max-width: var(--col-6);
         
     }
 
     .col-md-7 {
         flex: 0 0 var(--col-7);
+        min-width: var(--col-7);
         max-width: var(--col-7);
         
     }
 
     .col-md-8 {
         flex: 0 0 var(--col-8);
+        min-width: var(--col-8);
         max-width: var(--col-8);
     }
 
     .col-md-9 {
         flex: 0 0 var(--col-9);
+        min-width: var(--col-9);
         max-width: var(--col-9);
         
     }
 
     .col-md-10 {
         flex: 0 0 var(--col-10);
+        min-width: var(--col-10);
         max-width: var(--col-10);
         
     }
