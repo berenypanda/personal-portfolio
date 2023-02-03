@@ -305,6 +305,10 @@ a {
     padding:5px;
 }
 
+.btn-secondary > a {
+    color:var(--white);
+}
+
 ul.inline.social-media > li > a:hover {
     border: none; /*Removes hover border on social media icons*/
 }
@@ -528,8 +532,8 @@ footer {
 .bottom-nav > ul > li > a {
     text-decoration: none;
     margin-top: 5px;
-    background-color: var(--gray);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--primary);
     font-weight: bold;
     letter-spacing: 0.3px;
     border: 2px solid var(--white);
