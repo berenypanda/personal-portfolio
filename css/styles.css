@@ -621,6 +621,8 @@ ul.inline.social-media {
 @media screen and (min-width: 768px) {
     .company-details > .row {
         display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
 
     }
     .copyright .row {
@@ -629,6 +631,7 @@ ul.inline.social-media {
         justify-content: space-around;
     }
 }
+
 
 /* End of Footer Styles */ 
 
