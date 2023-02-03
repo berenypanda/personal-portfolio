@@ -570,7 +570,23 @@ ul.unstyled.footer-nav > li > a {
 .form-group.row .col-sm-12 {
     padding:0px;
 } 
+/* format footer form*/
+form  #submit {
+    margin-top: 20%;
+}
 
+form .col-xs-12 {
+    padding: 0;
+}
+
+form #subscribe {
+    padding: 20%;
+
+}
+
+.copyright {
+    margin-top: 20%;
+}
 .copyright > .container {
     padding: 0;
 }
