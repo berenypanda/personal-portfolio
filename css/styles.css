@@ -86,7 +86,7 @@ img {
 .navbar {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: flex-start;
     background-color: var(--primary);
@@ -202,12 +202,6 @@ img {
 }
 
 @media screen and (min-width: 768px){
-
-    .navbar {
-        display:flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
     .navbar-toggler {
         display: none;
     }
