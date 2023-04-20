@@ -67,6 +67,18 @@ body {
     width: 80%;
 }
 
+/*Change content page width on bigger screens*/
+
+@media screen and (min-width:992px){
+    #main-page, .navbar {
+        width: 60%;
+    }
+
+    * {
+        font-size: 105%;
+    }
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -399,7 +411,7 @@ ul.inline.social-media > li > a:hover {
 
 /*End of Article Styles */
 /*Resume Styles */
-    .job-desc {
+    .resume-bullet {
         list-style-type:square;
         margin-left: 5vw;
 
