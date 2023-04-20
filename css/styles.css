@@ -77,10 +77,9 @@ li > a {
 }
 /*Image Styles*/
 img {
-    object-fit:scale-down;
+    object-fit:cover;
     max-height: 150px;
 }
-
 /*End of Image Styles */
 /* Navigation Styles */
 .navbar {
