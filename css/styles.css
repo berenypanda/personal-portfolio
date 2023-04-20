@@ -261,7 +261,7 @@ button > a {
 
 @media screen and (min-width: 768px) {
 
-.btn-secondary {
+/* .btn-secondary {
     background-color: var(--primary);
     color: var(--white);
     font-weight: bold;
@@ -278,7 +278,7 @@ button > a {
     letter-spacing: 0.3px;
     border: 2px solid var(--white);
     padding: 10px;
-}
+} */
 
 .inline.social-media > li > a > i {
     color: var(--white);
@@ -340,10 +340,23 @@ ul.inline.social-media > li > a:hover {
 .intro {
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
     align-content: center;
     margin-top: 35px;
+}
+
+.intro.home {
+    background: url(../images/homepic.jpg) no-repeat center 50px;
+    background-position-y:45%;
+    background-size: 100%;
+    min-height: 60vh;
+    
+}
+
+.intro.home h1, .intro.home p {
+    color: var(--white);
+    padding: 10px;
 }
 
 .article-section {
