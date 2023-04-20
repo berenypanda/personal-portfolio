@@ -62,7 +62,7 @@ body {
     
 }
 
-#main-page, .navbar {
+ #main-page,.navbar {
     margin: 10vh auto;
     width: 80%;
 }
@@ -403,6 +403,13 @@ ul.inline.social-media > li > a:hover {
         list-style-type:square;
         margin-left: 5vw;
 
+    }
+    .role h4 {
+        color: var(--primary-hover);
+
+    }
+    .course-skills-section ul {
+        list-style-type: disc;
     }
 /*End of Resume Styles */
 
