@@ -368,12 +368,21 @@ ul.inline.social-media > li > a:hover {
         display:flex;
         flex-flow: row wrap;
         justify-content: space-between;
-
     }
+    .single-article {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .article-section {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
 @media screen and (min-width:992px){
     .intro {
         display:flex;
-        flex-flow: row nowrap;
+        flex-flow:column nowrap;
         justify-content: space-between;
     }
 
@@ -381,7 +390,7 @@ ul.inline.social-media > li > a:hover {
         max-width: var(--col-lg-5)
     }
 }
-}
+
 
 /*End of Article Styles */
 /*Resume Styles */
