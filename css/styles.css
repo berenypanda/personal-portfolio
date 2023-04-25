@@ -241,6 +241,10 @@ img {
 
 /* Button Styles */
 
+.intro button {
+    margin-bottom: 5%;
+}
+
 button > a {
     text-decoration: none;
 }
@@ -385,6 +389,9 @@ ul.inline.social-media > li > a:hover {
 }
 
 @media screen and (min-width:768px){
+    .intro.home {
+        font-size:150%;
+    }
     .md-articles{
         display:flex;
         flex-flow: row nowrap;
@@ -421,6 +428,14 @@ ul.inline.social-media > li > a:hover {
         justify-content: space-between;
     }
 }
+
+@media screen and (min-width:1300px) {
+    .intro.home {
+        background-position-y: 50%;
+        background-size: 100%;
+    }
+}
+
 
 
 /*End of Article Styles */
