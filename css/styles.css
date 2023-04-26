@@ -107,10 +107,9 @@ img {
     top: 0;
     font-weight: bold;
 }
-.navbar-brand {
+.navbar-brand > img {
     display: block;
     overflow: hidden;
-    background: url(../images/logo.svg) no-repeat center/contain transparent;
     width: 10rem;
     height: 4rem;
   /*  text-indent: -9999px; */
