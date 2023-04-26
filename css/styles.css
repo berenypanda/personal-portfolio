@@ -245,8 +245,9 @@ img {
     margin-bottom: 5%;
 }
 
-button > a {
+.btn-secondary > a {
     text-decoration: none;
+    color: var(--primary);
 }
 .btn-primary {
     background-color: var(--primary);
@@ -319,9 +320,6 @@ a {
     padding:5px;
 }
 
-.btn-secondary > a {
-    color:var(--white);
-}
 
 ul.inline.social-media > li > a:hover {
     border: none; /*Removes hover border on social media icons*/
