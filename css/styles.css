@@ -265,24 +265,6 @@ img {
 
 @media screen and (min-width: 768px) {
 
-/* .btn-secondary {
-    background-color: var(--primary);
-    color: var(--white);
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    border: 2px solid var(--primary);
-    padding: 10px;
-}
-
-.bottom-page-2 .btn-secondary {
-    margin-top: 5px;
-    background-color: var(--primary);
-    color: var(--white);
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    border: 2px solid var(--white);
-    padding: 10px;
-} */
 
 .inline.social-media > li > a > i {
     color: var(--white);
