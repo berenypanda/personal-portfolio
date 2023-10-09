@@ -88,7 +88,10 @@ li > a {
     text-decoration: none;
 }
 /*Image Styles*/
-img {
+.navbar img {
+    max-height: 150px;
+}
+.single-article img {
     object-fit:cover;
     max-height: 150px;
 }
