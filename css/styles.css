@@ -60,6 +60,7 @@ body {
     display:flex;
     flex-direction: column;
     line-height: var(--base-line-height);
+    min-height: 100vh;
     
 }
 
@@ -367,7 +368,7 @@ ul.inline.social-media > li > a:hover {
     border: none; /*Removes hover border on social media icons*/
 }
 
-.bottom-page-1 a:hover, .bottom-page-2 a:hover {
+ .unstyled.footer-nav a:hover {
     background-color: var(--white);
     color: var(--primary);
 
@@ -642,6 +643,7 @@ ul.inline.social-media {
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 0;
+    font-size: var(--h2-font-size);
 }
 /*footer for tablets and desktop*/ 
 @media screen and (min-width: 768px) {
