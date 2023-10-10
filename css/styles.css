@@ -64,21 +64,22 @@ body {
 
  #main-page,.navbar {
     margin: 10vh auto;
-    width: 80%;
+    width: 70ch;
 }
 #main-page h2 {text-align:center;}
 /*Change content page width on bigger screens*/
 
 @media screen and (min-width:992px){
     #main-page, .navbar {
-        width: 60%;
+        width: 70ch;
     }
 
     * {
-        font-size: 105%;
+        font-size: var(--base-font-size * 1.5);
     }
 }
 
+/*List Styles*/
 ul {
     list-style-type: none;
     padding: 0;
@@ -86,6 +87,11 @@ ul {
 
 li > a {
     text-decoration: none;
+}
+
+ul.case {
+    list-style-type: circle;
+    margin-left: 5%;
 }
 /*Image Styles*/
 .navbar img {
