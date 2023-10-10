@@ -64,18 +64,18 @@ body {
 
  #main-page,.navbar {
     margin: 10vh auto;
-    width: 70ch;
+    width: 80%;
 }
 #main-page h2 {text-align:center;}
 /*Change content page width on bigger screens*/
 
 @media screen and (min-width:992px){
     #main-page, .navbar {
-        width: 70ch;
+        width: 60%
     }
 
     * {
-        font-size: var(--base-font-size * 1.5);
+        font-size: 105%;
     }
 }
 
