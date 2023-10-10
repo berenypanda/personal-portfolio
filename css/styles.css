@@ -448,9 +448,13 @@ ul.inline.social-media > li > a:hover {
     }
 }
 
-
-
 /*End of Article Styles */
+
+/*Video Styles*/
+video {
+    display:block;
+    margin: 0 auto;
+}
 /*Resume Styles */
     .resume-bullet {
         list-style-type:square;
