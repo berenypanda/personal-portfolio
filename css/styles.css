@@ -488,6 +488,28 @@ video {
     margin: 0 auto;
 }
 /*Resume Styles */
+    .contact {
+        display: flex;
+        flex-flow: column nowrap;
+        font-size: var(--h3-font-size);
+        padding: 5%;
+        background-color: var(--primary);
+        color: var(--white);
+        align-content: center;
+    }
+    .contact-icons{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-icons i {
+        color: var(--white);
+        font-size: var(--h1-font-size);
+    }
+
+    .contact-icons i:hover {
+        color: var(--gray);
+    }
     .resume-bullet {
         list-style-type:square;
         margin-left: 5vw;
