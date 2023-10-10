@@ -300,30 +300,31 @@ ul.case {
     border: none;
     padding: 2%;
 }
-
-.btn-secondary {
-    background-color: var(--secondary);
-    border: none;
-    padding: 10px;
-    letter-spacing: 0.3px;
-}
 .btn-primary > a {
     text-decoration: none;
     color: var(--white);
 }
 
-.btn-primary:hover {
-    background-color: var(--primary-hover);
+.btn-primary a:hover {
+    
+    border-bottom: 1px solid var(--white);
 }
 
+
+.btn-secondary {
+    background-color: var(--white);
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.3px;
+}
 .btn-secondary > a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary);
+}
+.btn-secondary a:hover {
+    border-bottom: 1px solid var(--primary);
 }
 
-.btn-secondary:hover {
-    background-color: var(--secondary-hover);
-}
 
 @media screen and (min-width: 768px) {
 
