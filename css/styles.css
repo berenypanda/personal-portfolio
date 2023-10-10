@@ -363,11 +363,11 @@ ul.inline.social-media > li > a:hover {
 }
 
 .intro.home {
-    background: url(../images/homepic.jpg) no-repeat center 50px;
+    background: url(../images/hero-placeholder.png) no-repeat center 50px;
     background-position-y:45%;
-    background-size: 100%;
+    background-size: 100% 100%;
     min-height: 60vh;
-    
+    justify-content: space-around;
 }
 
 .intro.home h1, .intro.home p {
