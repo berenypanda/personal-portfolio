@@ -75,20 +75,21 @@ h3 {
     font-size: var(--h3-font-size);
 }
 
-.navbar {
+#main-page, .navbar {
     margin: 10vh auto;
     width: 80%;
 }
-#main-page {
+/* #main-page {
     margin: 10vh auto;
     max-width: 70ch;
-}
+} */
 #main-page h2 {text-align:center;}
+
 /*Change content page width on bigger screens*/
 
-@media screen and (min-width:992px){
-    #main-page, .navbar {
-        width: 60%
+@media screen and (min-width:768px){
+    #main-page {
+        max-width: 70ch;
     }
 
     * {
