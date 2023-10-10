@@ -299,7 +299,8 @@ ul.case li {
 .btn-primary {
     background-color: var(--primary);
     border: none;
-    padding: 2%;
+    padding: 10px;
+    letter-spacing: 0.3px;
 }
 .btn-primary > a {
     text-decoration: none;
