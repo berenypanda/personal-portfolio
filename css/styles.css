@@ -294,13 +294,8 @@ ul.case {
     margin-bottom: 5%;
 }
 
-.btn-secondary > a {
-    text-decoration: none;
-    color: var(--primary);
-}
 .btn-primary {
     background-color: var(--primary);
-    color: var(--white);
     border: none;
     padding: 0;
 }
@@ -311,6 +306,18 @@ ul.case {
     border: none;
     padding: 10px;
     letter-spacing: 0.3px;
+}
+.btn-primary > a {
+    text-decoration: none;
+    color: var(--white);
+}
+.btn-secondary > a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.btn-secondary > a:hover {
+    color: var(--secondary-hover);
 }
 
 @media screen and (min-width: 768px) {
@@ -571,6 +578,12 @@ ul.unstyled.footer-nav > li > a {
     letter-spacing: 0.3px;
     border: 2px solid var(--white);
 }
+
+ul.unstyled.footer-nav a:hover {
+    color: var(--primary);
+    background-color: var(--white);
+}
+
 
 .col-md-12.col-lg-6 > form {
     display: flex;
