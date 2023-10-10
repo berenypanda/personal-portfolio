@@ -89,9 +89,25 @@ li > a {
     text-decoration: none;
 }
 
+/*Case Studies*/
 ul.case {
     list-style-type: circle;
     margin-left: 5%;
+}
+
+/*Table of Content Styles*/
+
+.table-of-contents {
+    border: 2px solid var(--primary);
+    background-color: var(--primary);
+}
+
+.table-of-contents h3, ol, .table-of-contents a {
+    color: var(--white);
+    margin-left: 5%;
+}
+.table-of-contents a {
+    text-decoration:underline;
 }
 /*Image Styles*/
 .navbar img {
