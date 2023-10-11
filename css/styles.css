@@ -348,6 +348,7 @@ ul.case li {
 
 .inline.social-media > li > a > i {
     color: var(--white);
+    font-size: var(--h1-font-size);
 }
 
     /* Button Hover Styles */
@@ -362,7 +363,7 @@ ul.case li {
     }
 
     .inline.social-media > li > a > i:hover {
-        color: var(--gray-2);
+        color: var(--gray);
         cursor: pointer;
     }
 }
@@ -698,6 +699,7 @@ ul.inline.social-media {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-around;
+        align-items: center;
     }
 }
 
