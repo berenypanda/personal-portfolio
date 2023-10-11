@@ -130,6 +130,42 @@ ul.case li {
     scroll-margin-top: 20vh;
 }
 
+.back-to-top {
+    align-self:center;
+    margin: 1%;
+    text-align: center;
+    font-size: smaller;
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+}
+
+.back-to-top i {
+    font-size: var(--h1-font-size);
+    align-self: center;
+}
+
+@media screen and (min-width:768px) {
+    .back-to-top {
+        position:sticky;
+        bottom: 0;
+        align-self:flex-end;
+        margin: 1%;
+        text-align: center;
+        font-size: smaller;
+        display: flex;
+        flex-flow: column wrap;
+        justify-items: center;
+    }
+    
+    .back-to-top i {
+        font-size: var(--h1-font-size);
+        align-self: center;
+    }
+}
+
+
+
 /*Table of Content Styles*/
 
 .table-of-contents {
