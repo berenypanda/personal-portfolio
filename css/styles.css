@@ -118,6 +118,10 @@ ul.case li {
     margin-top: 2%;
     margin-bottom: 2%;}
 
+[id ^=jump]{
+    scroll-margin-top: 20vh;
+}
+
 /*Table of Content Styles*/
 
 .table-of-contents {
@@ -152,6 +156,9 @@ ul.case li {
     width: 100%;
     margin: 0;
     font-weight: bold;
+    position: sticky;
+    top: 0;
+    height: 20vh;
 }
 .navbar-brand > img {
     display: block;
