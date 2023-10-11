@@ -110,6 +110,10 @@ li > a {
 
 /*Case Studies*/
 
+#main-page.case-study {
+    line-height: calc(var(--base-line-height) * var(--base-scale) * var(--base-scale));
+}
+
 ul.case {
     list-style-type: circle;
     margin-left: 5%;
