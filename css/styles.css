@@ -314,7 +314,7 @@ ul.case li {
 .btn-primary {
     background-color: var(--primary);
     border: none;
-    padding: 10px;
+    padding: 12px;
     letter-spacing: 0.3px;
 }
 .btn-primary > a {
@@ -330,7 +330,7 @@ ul.case li {
 
 .btn-secondary {
     background-color: var(--white);
-    border: none;
+    border: 2px solid var(--primary);
     padding: 10px;
     letter-spacing: 0.3px;
 }
