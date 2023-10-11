@@ -506,6 +506,9 @@ video {
     margin: 0 auto;
 }
 /*Resume Styles */
+    .intro.about-me {
+        line-height: calc(var(--base-line-height) * var(--base-scale) * var(--base-scale));
+    }
     .contact {
         display: flex;
         flex-flow: column nowrap;
@@ -531,8 +534,12 @@ video {
     .resume-bullet {
         list-style-type:square;
         margin-left: 5vw;
+        line-height: calc(var(--base-line-height) * var(--base-scale) * var(--base-scale));
 
     }
+    .role {
+        line-height: calc(var(--base-line-height) / (var(--base-scale) * 2));
+        }
     .role h4 {
         color: var(--primary-hover);
 
