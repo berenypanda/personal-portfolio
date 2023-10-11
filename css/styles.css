@@ -167,6 +167,7 @@ ul.case li {
     position: sticky;
     top: 0;
     height: 20vh;
+    z-index: 1;
 }
 .navbar-brand > img {
     display: block;
