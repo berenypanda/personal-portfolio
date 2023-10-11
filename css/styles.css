@@ -202,7 +202,7 @@ ul.case li {
     font-weight: bold;
     position: sticky;
     top: 0;
-    height: 20vh;
+    height: 30vh;
     z-index: 1;
 }
 .navbar-brand > img {
@@ -215,9 +215,9 @@ ul.case li {
 }
 
 .navbar-toggler {
-   /* background-color: var(--primary);
+   background-color: var(--primary);
     border: 0 none;
-    color: white; */
+    color: white;
     width: 2rem;
     height: 2rem;
     display: flex;
@@ -229,6 +229,7 @@ ul.case li {
 
 .navigation {
     flex: 0 0 100%;
+    background-color: var(--primary);
 }
 
 .navigation.collapse .navbar-nav {
