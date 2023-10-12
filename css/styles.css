@@ -462,7 +462,7 @@ ul.inline.social-media > li > a:hover {
     background: url(../images/hero-dark.jpg) no-repeat center 50px;
     background-position-y:45%;
     background-size: cover;
-    min-height: 40vh;
+    min-height: 60vh;
     justify-content: space-around;
 }
 
