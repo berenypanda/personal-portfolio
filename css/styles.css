@@ -144,7 +144,11 @@ ul.case li {
     font-size: var(--h1-font-size);
     align-self: center;
 }
-
+.back-to-studies {
+    display: flex;
+    align-items: center;
+}
+.back-to-studies a {text-decoration: none;}
 @media screen and (min-width:768px) {
     .back-to-top {
         position:sticky;
