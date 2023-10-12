@@ -28,7 +28,7 @@
         </div>
     </nav>
     <div id="main-page" class="case-study">
-            <h1>Alexus Hair Designs</h1>
+            <h1>Universal Furniture Outlet</h1>
             <div class="table-of-contents col-xs-10 col-md-10">
               <h3>Table of Contents</h3>
               <ol>
@@ -57,11 +57,12 @@
           <hr>
             <h2>Description</h2>
             <h3 id="jump-details">Details</h3>
-            <p>A semester-long team project for my Internet Marketing class.</p>
+            <p>A month-long team project for my Database Management Systems class.</p>
             <h3>Objective</h3>
             <ul class="case">
-              <li>To apply Internet Marketing concepts to build a simple website for a hairstylist (Alexus Hair Designs.) </li>
-              <li>To create PHP supported interactive features that would support the business needs of Alexus Hair Designs. 
+              <li>To design a database system for the fictional Universal Furniture Outlet, which sells home and office furniture. 
+            </li>
+              <li>Create a functioning Oracle mySQL database based on the team’s data models.  
               </li>
             </ul>
             <p></p>
@@ -69,65 +70,44 @@
         </div>
         <div class="case-journey" id="jump-case-journey">
             <h2>Journey</h2>
-            <h3 id="jump-choosing">Choosing a Client</h3>
-            <p>Our client was my team member’s hairstylist, Alexus. Alexus is a traveling hairstylist that performs services at clients’ homes. My partner personally knowing the client gave us a better idea of the user journey that the website should support. </p>
-            <h3 id="jump-analyzing">Analyzing The Client</h3>
-            <object data=
-            "pdf/marketing-proposal.pdf" type="application/pdf" class="col-xs-12 col-md-12 col-lg-12" height="1000"> <embed src="pdf/marketing-proposal.pdf" class="col-xs-12 col-md-12 col-lg-12"height="1000">
-              <p>The preview of this PDF is unavailable in your browser. Click <a href="pdf/marketing-proposal.pdf" download="marketing-proposal.pdf"><b>here</b></a> to download.</p>
-            </object> 
+            <h3 id="jump-choosing">Developing the Entity-Relationship Diagram 
+            </h3>
             <ul class="case">
-              <li>We created a business model of Alexus Hair Designs and conducted a SWOT Analysis to determine what features to place on the website. 
-                <ul class="case">
-                  <li>Alexus’s <b>value proposition</b>, or main benefit to prospective clients, is the convenience of using a hairstylist in the comfort of one’s own home.</li>
-                  <li>The convenience gives Alexus a competitive advantage, but customers may turn to salons for familiarity and lower prices in sacrifice of convenience. </li>
-                </ul>
-              </li>
-              <li>Observing competitors reminded us to have transparent pricing and to use images to advertise to our known demographic (mainly 25-60 year old women.)</li>
-            </ul>
-            <h3 id="jump-designing">Designing and Building</h3>
-            <object data=
-            "pdf/alexus-design.pdf" class="col-xs-12 col-md-12 col-lg-12" height="1000">
-              <p>The preview of this PDF is unavailable in your browser. Click <a href="pdf/alexus-design.pdf"><b>here</b></a> to download.</p>
-            </object>
-            <ul class="case">
-              <li>My partner translated the brand image and selling points into parts of our design.
-                <ul class="case">
-                  <li><b>Color Palette and Typography</b></li>
-                    <ul class="case">
-                      <li>Soft neutral colors and sans serif fonts helped create a sleek, professional and relaxing overall feel to the website.</li>
-                    </ul>
-                  <li><b>Call To Action and Hero Image</b></li>
+                <li>Identifying Entities 
                   <ul class="case">
-                    <li>Soft neutral colors and sans serif fonts helped create a sleek, professional and relaxing overall feel to the website.</li>
+                    <li>The first step in designing a database system is knowing what objects are within it. To find entities, my team searched for nouns within the business description. Anything that described a person, place, or thing (excluding traits of potential objects, such as phone number) was classified as a potential entity. </li>
                   </ul>
-                </ul>
-              </li>
-              <li>I focused on building the two main interactive features using PHP.</li>
-                <ul class="case">
-                  <li><b>Booking Appointment Form</b>
+                </li>
+                <li>Attributes
                     <ul class="case">
-                      <li>This form supports the main call to action. It also generates a basic confirmation email using the PHP mail() function. I had an interest in creating a stylized confirmation email, but this proved too complex for me at the time.</li>
+                        <li>To determine the attributes, we included only the information about each object the business needs to function. These were also given in the description.</li>
                     </ul>
-                  </li>      
-                  <li><b>Promo Code</b>
-                    <ul class="case">
-                      <li>Soft neutral colors and sans serif fonts helped create a sleek, professional and relaxing overall feel to the website.</li>
-                    </ul>
-                  </li>
-                </ul>
-            </ul>
-            <h3 id="jump-challenges">Challenges</h3>
+                </li>
+              </ul>
+            <h3 id="jump-analyzing">Relational Schema </h3>
             <ul class="case">
-              <li><b>Viewing changes</b> in real time became tedious with the UTA Cloud hosting service. I’d have to reupload my file each time just to see tiny changes I made in the CSS, for example.
+              <li>Primary Keys
                 <ul class="case">
-                  <li>I solved this problem by discovering MAMP, a tool that allows me to run a server locally to play around with dynamic websites. This allowed me to view changes in real time, speeding up my development process. </li>
+                  <li>Every PK should uniquely identify each instance of an entity. 
+                </li>
+                  <li>Some PK’s were explicitly given (Customer account numbers on the form are unique). For other PK’s, we focused on anything that we knew no two instances of an entity would share. In most business cases, these are usually ID numbers given to an employee or a product. 
+                </li>
                 </ul>
               </li>
-              <li>While I was experienced in using git version control as an individual,<b> using git with another person</b> became challenging.
+              <li>Foreign Keys 
                 <ul class="case">
-                  <li> We decided to split our work beforehand each day, with me sending files at the end of the day. </li>
+                    <li>After determining which entities were connected, we linked the foreign keys of tables to the primary keys they were connected with. </li>
                 </ul>
+              </li>
+            </ul>
+            <h3 id="jump-designing">SQL Metadata</h3>
+            <ul class="case">
+              <li>With the relational schema developed, we now essentially had our tables. The additional work was determining the data type and the null constraints.
+              </li>
+            </ul>
+            <h3 id="jump-challenges">SQL Queries </h3>
+            <ul class="case">
+              <li>My main contribution was generating queries. Select queries were relatively simple. Creating ? tables were initially challenging. 
               </li>
             </ul>
           <hr>
@@ -136,11 +116,7 @@
             <h2>Conclusion</h2>
             <h3 id="jump-different">What I'd Do Differently</h3>
             <ul class="case">
-              <li>Utilizing <b>more real images from the client</b>, especially those of high quality. 
-              </li>
-              <li><b>Utilize git as a team</b> instead of sending files asynchronously. I learned that through GitHub desktop and VSCode, there are ways to commit and push changes without everyone having to learn bash language. 
-              </li>
-              <li><b>Place the main call to action on several pages.</b> I noticed that it is only on one page, which forces the user to return to the homepage. Ideally, users should be able to explore services, or learn about the client, then be reminded with a nearby button on the same page to perform the main objective (booking an appointment.)</li>
+                <li>While I got to analyze the final product afterwards, I think being involved in every step of the process as a team would be ideal. As I take higher level information systems classes, I’ve come to realize the importance of assessing systems in a team. Other people can point out discrepancies or errors early, prevent mishaps down the road. </li>
             </ul>
         </div>
     </div>
