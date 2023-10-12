@@ -186,7 +186,8 @@ font-style: italic;}
 }
 /*Image Styles*/
 .navbar img {
-    max-height: 10vh;
+    max-height: 7vh;
+    padding-top: 1vh;
 }
 .single-article img {
     object-fit:cover;
