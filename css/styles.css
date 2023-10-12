@@ -557,7 +557,7 @@ video {
         padding: 5%;
         background-color: var(--primary);
         color: var(--white);
-        align-content: center;
+        align-items:center;
     }
     .contact-icons{
         display: flex;
@@ -567,6 +567,7 @@ video {
     .contact-icons i {
         color: var(--white);
         font-size: var(--h1-font-size);
+        margin-right: 5%;
     }
 
     .contact-icons i:hover {
