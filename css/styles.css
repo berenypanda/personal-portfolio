@@ -37,6 +37,9 @@
 
     --white: #ededed;
     --gray: #B0B0B0;
+    --accent: #CC3F0C;
+    --accent-hover: #a3320a;
+
 
     /* --gray: #ededed;
     --gray-2:#B0B0B0;
@@ -355,7 +358,7 @@ ul.case li {
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: var(--accent);
     border: none;
     padding: 12px;
     letter-spacing: 0.3px;
@@ -367,22 +370,22 @@ ul.case li {
 
 .btn-primary a:hover {
     
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px solid var(--accent-hover);
 }
 
 
 .btn-secondary {
     background-color: var(--white);
-    border: 2px solid var(--primary);
+    border: 2px solid var(--accent);
     padding: 10px;
     letter-spacing: 0.3px;
 }
 .btn-secondary > a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--accent);
 }
 .btn-secondary a:hover {
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid var(--accent);
 }
 
 
@@ -422,7 +425,7 @@ h1, h2, h3, h4, h5 {
 /* Link Styles */
 
 a {
-    color: var(--primary);
+    color:  var(--primary);
     padding:5px;
 }
 
@@ -577,13 +580,13 @@ video {
     }
 
     .contact-icons i {
-        color: var(--white);
+        color: var(--accent);
         font-size: var(--h1-font-size);
         margin-right: 5%;
     }
 
     .contact-icons i:hover {
-        color: var(--gray);
+        color: var(--accent-hover);
     }
     .resume-bullet {
         list-style-type:square;
