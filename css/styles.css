@@ -454,16 +454,18 @@ ul.inline.social-media > li > a:hover {
 }
 
 .intro.home {
-    background: url(../images/hero-placeholder.png) no-repeat center 50px;
+    background: url(../images/hero-dark.jpg) no-repeat center 50px;
     background-position-y:45%;
-    background-size: 100% 100%;
-    min-height: 60vh;
+    background-size: cover;
+    min-height: 40vh;
     justify-content: space-around;
 }
 
 .intro.home h1, .intro.home p {
     color: var(--white);
     padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
 }
 
 .article-section {
@@ -494,6 +496,14 @@ ul.inline.social-media > li > a:hover {
     .intro.home {
         font-size:150%;
         flex-flow: row wrap;
+        background: url(../images/hero.jpg) no-repeat center 50px;
+        background-position-y:45%;
+        background-size: cover;
+    }
+
+    .intro.home h1, .intro.home p {
+        color: var(--primary);
+        text-shadow: 1px 1px var(--white);
     }
     .md-articles{
         display:flex;
