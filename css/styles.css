@@ -209,14 +209,17 @@ font-style: italic;}
     height: 10vh;
     z-index: 1;
 }
-.navbar-brand > img {
+.navbar a {padding: 0;}
+.navbar-brand {
     display: block;
     overflow: hidden;
     width: 10rem;
     height: 4rem;
-  /*  text-indent: -9999px; */
+   text-indent: -9999px;
     text-decoration: none;
 }
+
+.navbar-brand {color: var(--white);}
 
 .navbar-toggler {
    background-color: var(--primary);
@@ -239,7 +242,7 @@ font-style: italic;}
 .navigation.collapse .navbar-nav {
     display: none;
 }
-
+#navigation {max-height: 9vh;}
 .navbar-nav {
     list-style-type: none;
     padding: 0;
@@ -249,7 +252,7 @@ font-style: italic;}
     color: var(--white);
     display: block;
     overflow: hidden;
-    padding: calc((1em / var(--base-scale)) / var(--base-scale)) calc(1em / var(--base-scale));
+    margin: var(--base-scale);
     text-decoration: none;
     border-bottom: 2px solid transparent;
 }
