@@ -131,6 +131,11 @@ ul.case li {
     scroll-margin-top: 10vh;
 }
 
+/* Object error message */
+object p, object a {color: #A30000;
+font-style: italic;}
+/* -- */
+
 .back-to-top {
     align-self:center;
     margin: 1%;
@@ -591,9 +596,6 @@ video {
         line-height: calc(var(--base-line-height) * var(--base-scale) * var(--base-scale));
 
     }
-    .role {
-        line-height: calc(var(--base-line-height) / (var(--base-scale) * 2));
-        }
     .role h4 {
         color: var(--primary-hover);
 
